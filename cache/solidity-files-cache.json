@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\SystemX\\Desktop\\ass2\\rock-paper-scissors-dapp\\contracts\\RockPaperScissors.sol": {
+      "lastModificationDate": 1696641915456,
+      "contentHash": "e73c135567c1849c6c137b6eb3a17766",
+      "sourceName": "contracts/RockPaperScissors.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "RockPaperScissors"
+      ]
+    }
+  }
+}

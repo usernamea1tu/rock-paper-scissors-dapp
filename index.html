@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors DApp</title>
+</head>
+<body>
+    <h1>Rock-Paper-Scissors DApp</h1>
+    
+    <!-- Player registration -->
+    <button onclick="register()">Register</button>
+    
+    <!-- Player moves -->
+    <label for="move">Select your move:</label>
+    <select id="move">
+        <option value="Rock">Rock</option>
+        <option value="Paper">Paper</option>
+        <option value="Scissors">Scissors</option>
+    </select>
+    <button onclick="play()">Play</button>
+    
+    <!-- Reveal move -->
+    <label for="revealMove">Reveal your move:</label>
+    <input type="text" id="revealMove">
+    <button onclick="reveal()">Reveal</button>
+
+    <!-- Get outcome -->
+    <button onclick="getOutcome()">Get Outcome</button>
+
+    <!-- Display game information -->
+    <div id="gameInfo">
+        <p>Player 1: <span id="player1Address"></span></p>
+        <p>Player 2: <span id="player2Address"></span></p>
+        <p>Player 1 Move: <span id="player1Move"></span></p>
+        <p>Player 2 Move: <span id="player2Move"></span></p>
+        <p>Contract Balance: <span id="contractBalance"></span> ETH</p>
+        <p>Your Role: <span id="yourRole"></span></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
